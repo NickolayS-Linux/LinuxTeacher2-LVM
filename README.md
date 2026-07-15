@@ -33,6 +33,7 @@ sudo -i
 качестве Physical Volumes (далее - PV) для наших будущих Volume Groups (далее - VG). 
 
 Для этого можно воспользоваться lsblk:
+
 <img width="658" height="277" alt="image" src="https://github.com/user-attachments/assets/1be70f03-383e-4502-937a-e0c665241cae" />
 
 
