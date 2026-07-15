@@ -62,6 +62,33 @@ sudo -i
 
 <img width="697" height="56" alt="image" src="https://github.com/user-attachments/assets/c86e12bf-b3c2-4498-b2ed-3c1872ea7b59" />
 
+На примере с расширением VG мы увидим, что сюда добавится еще один диск.
+
+Детальную информацию о LV получим командой:
+
+<img width="697" height="268" alt="image" src="https://github.com/user-attachments/assets/6b619393-89f5-4115-ba93-a71ccc1da347" />
+
+В кратком содержании, информацию можно получить командами vgs и lvs:
+
+<img width="800" height="130" alt="image" src="https://github.com/user-attachments/assets/72b6c108-a89d-4483-8cca-b2744f0a82dd" />
+
+Создаю еще один LV из свободного места. На этот раз создам не экстентами, а абсолютным значением в мегабайтах:
+
+<img width="795" height="46" alt="image" src="https://github.com/user-attachments/assets/11d3161c-bd22-4065-bdc7-d38ce7bdf4c3" />
+
+Полуаю информацию о LVM:
+
+<img width="794" height="78" alt="image" src="https://github.com/user-attachments/assets/5f601597-80cf-424b-a462-0bf7b7f6428d" />
+
+Создам на LV файловую систему и смонтирую его:
+
+<img width="795" height="168" alt="image" src="https://github.com/user-attachments/assets/3b0bd1c9-40dc-4f5a-a64e-58c1a1753e9a" />
+
+<img width="797" height="83" alt="image" src="https://github.com/user-attachments/assets/600c9010-df60-45c1-a4fd-7e022286cea4" />
+
+
+
+
 
 
 
