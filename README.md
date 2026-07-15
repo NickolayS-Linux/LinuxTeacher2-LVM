@@ -86,6 +86,23 @@ sudo -i
 
 <img width="797" height="83" alt="image" src="https://github.com/user-attachments/assets/600c9010-df60-45c1-a4fd-7e022286cea4" />
 
+Расширение LVM
+
+Допустим, перед нами встала проблема нехватки свободного места в директории /data. 
+
+Мы можем расширить файловую систему на LV /dev/lvm_test/test за счет нового блочного устройства /dev/sdc.
+
+Для начала так же необходимо создать PV:
+
+<img width="797" height="51" alt="image" src="https://github.com/user-attachments/assets/6889ed55-4cdb-48ec-893d-e5fe17307525" />
+
+Далее необходимо расширить VG добавив в него этот диск (/dev/sdc):
+
+<img width="794" height="47" alt="image" src="https://github.com/user-attachments/assets/29667bc7-16c2-4dc7-abcb-297e1d3e7587" />
+
+Убедимся что новый диск присутствует в новой VG:
+
+<img width="795" height="62" alt="image" src="https://github.com/user-attachments/assets/94c7c3c0-aafa-4c92-8f22-cab5cb4ed349" />
 
 
 
