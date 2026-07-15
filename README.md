@@ -104,11 +104,33 @@ sudo -i
 
 <img width="795" height="62" alt="image" src="https://github.com/user-attachments/assets/94c7c3c0-aafa-4c92-8f22-cab5cb4ed349" />
 
+И что места в VG прибавилось:
 
+<img width="792" height="81" alt="image" src="https://github.com/user-attachments/assets/c36b5231-6f96-44fc-986b-8999b7f81316" />
 
+Сымитирую занятое место с помощью команды dd для большей наглядности:
 
+<img width="794" height="89" alt="image" src="https://github.com/user-attachments/assets/c71404e0-a0d0-46f4-93f4-42641dbfe9c5" />
 
+Теперь у нас занято 92% дискового пространства:
 
+<img width="798" height="58" alt="image" src="https://github.com/user-attachments/assets/66d2ebb5-4050-489f-b8b3-e2a31ace6f87" />
+
+Увеличиваю LV за счет появившегося свободного места. Возьмем не все место — это для того, чтобы осталось место для демонстрации снапшотов:
+
+<img width="807" height="76" alt="image" src="https://github.com/user-attachments/assets/1b6748d3-b048-4438-9c4b-b9cdfa3d475e" />
+
+Наблюдаем, что LV расширен до 19.04Gib:
+
+<img width="804" height="54" alt="image" src="https://github.com/user-attachments/assets/f1c75da5-2346-41e9-9689-614f2fc3b53f" />
+
+Но файловая система при этом осталась прежнего размера:
+
+<img width="804" height="61" alt="image" src="https://github.com/user-attachments/assets/f895ad44-a99f-44f8-b561-ca484043b1b8" />
+
+Произведем xfs_growfs, так как я использую xfs файловой системы:
+
+<img width="799" height="340" alt="image" src="https://github.com/user-attachments/assets/93a62b1f-5b00-4aa0-a2d7-ece5701e428d" />
 
  
 
