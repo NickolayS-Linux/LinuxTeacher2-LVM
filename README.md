@@ -82,7 +82,8 @@ sudo -i
 
 Создам на LV файловую систему и смонтирую его:
 
-<img width="795" height="168" alt="image" src="https://github.com/user-attachments/assets/3b0bd1c9-40dc-4f5a-a64e-58c1a1753e9a" />
+<img width="804" height="176" alt="image" src="https://github.com/user-attachments/assets/f26ab603-2366-4764-a390-bb5ba322489f" />
+
 
 <img width="797" height="83" alt="image" src="https://github.com/user-attachments/assets/600c9010-df60-45c1-a4fd-7e022286cea4" />
 
@@ -142,6 +143,7 @@ root@ubuntulinux:~# umount /data/
 
 <img width="803" height="491" alt="image" src="https://github.com/user-attachments/assets/ecd2dcda-53fb-41a4-9b5c-13913293e56e" />
 
+<img width="797" height="94" alt="image" src="https://github.com/user-attachments/assets/39ed9e63-383a-41de-86fa-6b15271305e5" />
 
 
 
