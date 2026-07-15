@@ -128,11 +128,19 @@ sudo -i
 
 <img width="804" height="61" alt="image" src="https://github.com/user-attachments/assets/f895ad44-a99f-44f8-b561-ca484043b1b8" />
 
-Произведем xfs_growfs, так как я использую xfs файловой системы:
+Произведем xfs_growfs, так как я использую xfs файлову систему:
 
 <img width="799" height="340" alt="image" src="https://github.com/user-attachments/assets/93a62b1f-5b00-4aa0-a2d7-ece5701e428d" />
 
- 
+Допустим я забыл оставить место на снапшоты. Можно уменьшить существующий LV с помощью команды lvreduce, 
+
+но перед этим необходимо отмонтировать файловую систему, 
+
+root@ubuntulinux:~# umount /data/
+
+Проверить её на ошибки (xfs_repair, не забываем, что у нас xfs) и уменьшить ее размер: 
+
+<img width="803" height="491" alt="image" src="https://github.com/user-attachments/assets/ecd2dcda-53fb-41a4-9b5c-13913293e56e" />
 
 
 
