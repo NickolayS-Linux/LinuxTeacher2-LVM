@@ -34,7 +34,8 @@ sudo -i
 
 Для этого можно воспользоваться lsblk:
 
-<img width="658" height="277" alt="image" src="https://github.com/user-attachments/assets/1be70f03-383e-4502-937a-e0c665241cae" />
+<img width="658" height="263" alt="image" src="https://github.com/user-attachments/assets/be6350af-3e3a-49d8-a26d-5e077ff7eb2c" />
+
 
 
 
