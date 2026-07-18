@@ -158,14 +158,16 @@ sudo -i
 
 Теперь удалим файлы:
 
-<img width="779" height="482" alt="image" src="https://github.com/user-attachments/assets/8c3bccdc-2147-48a6-ae96-79b54864ca01" />
-
 <img width="778" height="21" alt="image" src="https://github.com/user-attachments/assets/3383c84d-ff10-4c41-add8-981ad7ea2a75" />
-
-
 
 <img width="470" height="251" alt="image" src="https://github.com/user-attachments/assets/d7e16826-dfb2-4dac-b51b-d38db3137276" />
 
+Процесс восстановления из снапшота:
 
+<img width="672" height="588" alt="image" src="https://github.com/user-attachments/assets/726e9c3d-8c2a-4186-a631-43c0cd792e9f" />
+
+Файлы успешно восстановлены.
+
+ДЗ Выполнено.
 
 
