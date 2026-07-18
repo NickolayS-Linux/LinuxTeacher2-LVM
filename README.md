@@ -44,7 +44,52 @@ sudo -i
 
 <img width="771" height="46" alt="image" src="https://github.com/user-attachments/assets/e1f26150-ac61-4838-8b06-2dc3ecb8b57b" />
 
-Создам VG и LV назову. Названия vg_root и lv_root соответственно
+Создам VG и LV. Названия: vg_root и lv_root соответственно. 
+
+Создадим на нем файловую систему и смонтирую его, чтобы перенести туда данные:
 
 <img width="771" height="237" alt="image" src="https://github.com/user-attachments/assets/feed3a86-4d35-4f18-baee-ec0de378920d" />
+
+<img width="771" height="41" alt="image" src="https://github.com/user-attachments/assets/f3da4fae-2a4a-4a4d-9ec6-a3c85f14655c" />
+
+Посмотрю, что сейчас у нас имеется:
+
+<img width="770" height="268" alt="image" src="https://github.com/user-attachments/assets/f9bc539a-490e-4150-8de4-e403a5fb446d" />
+
+Этой командой копируем все данные с / раздела в /mnt:
+
+Процесс:
+
+<img width="766" height="206" alt="image" src="https://github.com/user-attachments/assets/754ca12b-a2b5-4e75-8e34-fb15037dae5e" />
+
+<img width="767" height="183" alt="image" src="https://github.com/user-attachments/assets/16568411-50f0-4116-8315-3b13bd1fda40" />
+
+<img width="767" height="1002" alt="image" src="https://github.com/user-attachments/assets/a151ee14-c2f8-4e6b-a3c2-c94879e2634f" />
+
+Процесс не быстрый, можно заварить кофи ))
+
+ЖдемС ))
+
+<img width="762" height="997" alt="image" src="https://github.com/user-attachments/assets/7f6b58e7-b446-4dae-b9f5-4cc065a1abe7" />
+
+Копирование закончено:
+
+<img width="768" height="1004" alt="image" src="https://github.com/user-attachments/assets/f168302e-ad4f-4565-965b-108b660d96f1" />
+
+Проверим, что все скопировалось
+
+<img width="768" height="433" alt="image" src="https://github.com/user-attachments/assets/5e8a9596-79c4-480f-af4c-7087b58cc028" />
+
+Затем сконфигурируем grub для того, чтобы при старте перейти в новый /.
+
+Сымитируем текущий root, сделаем в него chroot и обновим grub:
+
+<img width="772" height="214" alt="image" src="https://github.com/user-attachments/assets/2678ad0a-5d01-49b8-9a55-e2ed6ab3e0b7" />
+
+Обновим образ initrd
+
+<img width="767" height="46" alt="image" src="https://github.com/user-attachments/assets/51561f00-1dd7-453e-9cfd-137e6e505dfa" />
+
+
+
 
