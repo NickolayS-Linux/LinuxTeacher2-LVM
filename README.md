@@ -110,7 +110,7 @@ sudo -i
 
 Скопируем файлы на неё, но с исключениями, swap.img, /var/lib/pgpro/, /var/lib/docker/. Ограничение в 8гиг соотвественно нам не даст переместить:
 
-
+<img width="779" height="30" alt="image" src="https://github.com/user-attachments/assets/bf45e885-ae47-4606-952c-640fb051d542" />
 
 Процесс копирования:
 
