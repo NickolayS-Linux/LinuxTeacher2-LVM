@@ -90,6 +90,32 @@ sudo -i
 
 <img width="767" height="46" alt="image" src="https://github.com/user-attachments/assets/51561f00-1dd7-453e-9cfd-137e6e505dfa" />
 
+Проверим результат, что мы только, что сделали
+
+<img width="771" height="301" alt="image" src="https://github.com/user-attachments/assets/ec495b1f-67a3-4973-828e-a9b2703d48a1" />
+
+Выход из Chroot for Power Controls: я должен выйти из окружения chroot, что бы пытаетесь перезапустить виртуальную машину: 
+
+<img width="774" height="68" alt="image" src="https://github.com/user-attachments/assets/981079c9-6167-4a0e-abe0-782f6a49e682" />
+
+После ребута, проверим что у нас с дисками:
+
+<img width="770" height="625" alt="image" src="https://github.com/user-attachments/assets/bb1594af-a25e-45f0-9a57-f12929871039" />
+
+Теперь нам нужно изменить размер старой VG и вернуть на него рут. Для этого удаляем старый LV размером в 77G и создаём новый на 8G, 
+
+создадим на нем файловую систему, подмонтируем её:
+
+<img width="771" height="413" alt="image" src="https://github.com/user-attachments/assets/33bb356f-755c-43bd-800b-e8c01d45c1bc" />
+
+Скопируем файлы на неё, но с исключение, swap.img и /var/lib/pgpro/, ограничение в 8гиг соотвественно нам не даст переместить:
+
+
+
+
+
+
+
 
 
 
