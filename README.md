@@ -30,8 +30,8 @@ sudo -i
 
 Для начала необходимо определиться какие устройства мы хотим использовать в 
 
-1. Уменьшить том под / до 8G
-2. 
+**Уменьшить том под / до 8G**
+ 
 Эту часть можно выполнить разными способами, в данном примере мы будем
 
 уменьшать / до 8G без использования LiveCD.
@@ -116,10 +116,55 @@ sudo -i
 
 <img width="760" height="993" alt="image" src="https://github.com/user-attachments/assets/ad8b38dd-ccd5-4387-be6d-d45c0c2c9be3" />
 
+Закончили копирование:
+
+<img width="772" height="980" alt="image" src="https://github.com/user-attachments/assets/302a7666-26ea-4a57-9d80-efd0aed7cc1d" />
+
+Так же как в первый раз cконфигурирую grub.
+
+<img width="772" height="655" alt="image" src="https://github.com/user-attachments/assets/c6c34ac8-f9dd-4354-9d5a-df8ef7e09068" />
+
+Запускаю initrd
+
+<img width="767" height="46" alt="image" src="https://github.com/user-attachments/assets/51561f00-1dd7-453e-9cfd-137e6e505dfa" />
+
+**Выделить том под /var в зеркало**
+
+На свободных дисках создаем зеркало /dev/sdc /dev/sdd:
+
+<img width="780" height="56" alt="image" src="https://github.com/user-attachments/assets/e5692156-e4ef-4c38-9654-3e1e3906838f" />
+
+Произведем некоторые действия:
+
+<img width="778" height="391" alt="image" src="https://github.com/user-attachments/assets/91fd9a4e-72a5-4ab4-bd1d-3c8535b43444" />
+
+По методичке нужно удалять временный lv_root, я ео удалять не буду, так как я обратно восстановлю систему после ДЗ.
+
+**Выделить том под /home**
+
+Выделяем том под /home по тому же принципу что делали для /var:
+
+<img width="779" height="991" alt="image" src="https://github.com/user-attachments/assets/83292adb-1e0e-4cb5-a48b-ba86d6a25b68" />
+
+**Работа со снапшотами**
+
+Генерируем файлы в /home/:
+
+<img width="777" height="423" alt="image" src="https://github.com/user-attachments/assets/a7b35635-305c-438e-8f30-abc76a2f0dc6" />
+
+Проверим, что у нас получилось:
+
+<img width="779" height="482" alt="image" src="https://github.com/user-attachments/assets/8c3bccdc-2147-48a6-ae96-79b54864ca01" />
+
+Теперь удалим файлы:
+
+<img width="779" height="482" alt="image" src="https://github.com/user-attachments/assets/8c3bccdc-2147-48a6-ae96-79b54864ca01" />
+
+<img width="778" height="21" alt="image" src="https://github.com/user-attachments/assets/3383c84d-ff10-4c41-add8-981ad7ea2a75" />
 
 
 
-
+<img width="470" height="251" alt="image" src="https://github.com/user-attachments/assets/d7e16826-dfb2-4dac-b51b-d38db3137276" />
 
 
 
