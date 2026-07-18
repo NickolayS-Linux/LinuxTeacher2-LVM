@@ -30,5 +30,21 @@ sudo -i
 
 Для начала необходимо определиться какие устройства мы хотим использовать в 
 
-качестве Physical Volumes (далее - PV) для наших будущих Volume Groups (далее - VG). 
+1. Уменьшить том под / до 8G
+2. 
+Эту часть можно выполнить разными способами, в данном примере мы будем
+
+уменьшать / до 8G без использования LiveCD.
+
+Подготовлю чистый стенд.
+
+<img width="766" height="288" alt="image" src="https://github.com/user-attachments/assets/7928c901-16b3-4a21-9fda-4c47ab46bc45" />
+
+Подготовим временный том для / раздела:
+
+<img width="771" height="46" alt="image" src="https://github.com/user-attachments/assets/e1f26150-ac61-4838-8b06-2dc3ecb8b57b" />
+
+Создам VG и LV назову. Названия vg_root и lv_root соответственно
+
+<img width="771" height="237" alt="image" src="https://github.com/user-attachments/assets/feed3a86-4d35-4f18-baee-ec0de378920d" />
 
